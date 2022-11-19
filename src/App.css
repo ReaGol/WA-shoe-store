@@ -24,44 +24,66 @@ span {
   justify-content: space-between;
 }
 
-  .spin {
-        border: 10px solid #0042A4;
-        border-radius: 50%;
-        border-top: 10px solid #3775CF;
-        border-right: 10px solid #619BEE;
-        border-bottom: 10px solid #96BFF9;
-        border-left: 10px solid #C9E0FF;
-        width: 50px;
-        height: 50px;
-        -webkit-animation: spin 1.5s linear infinite;
-        animation: spin 1.5s linear infinite;
-      }
-      @-webkit-keyframes spin {
-        0% {
-          -webkit-transform: rotate(0deg);
-        }
-        100% {
-          -webkit-transform: rotate(360deg);
-        }
-      }
-      @keyframes spin {
-        0% {
-          transform: rotate(0deg);
-        }
-        100% {
-          transform: rotate(360deg);
-        }
-      }
+.spin {
+  border: 10px solid #0042a4;
+  border-radius: 50%;
+  border-top: 10px solid #3775cf;
+  border-right: 10px solid #619bee;
+  border-bottom: 10px solid #96bff9;
+  border-left: 10px solid #c9e0ff;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 1.5s linear infinite;
+  animation: spin 1.5s linear infinite;
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
-      .btn-delete {
-        cursor: pointer;
-        margin-right: 50px;
-        padding: 2px 4px;
-        background-color: coral;
-        border-radius: 5px;
-        font-weight: 600;
-      }
+.btn-delete {
+  cursor: pointer;
+  margin-right: 50px;
+  padding: 2px 4px;
+  background-color: coral;
+  border-radius: 5px;
+  font-weight: 600;
+}
 
-      button:hover{
-        box-shadow: 5px 1px 5px rgb(137, 157, 155);
-      }
+button:hover {
+  box-shadow: 5px 1px 5px rgb(137, 157, 155);
+}
+
+img {
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   height: 100%;
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 3rem;
+  color: blueviolet;
+  text-align: center;
+  text-shadow: 2px 2px 2px pink;
+}
+
+a {
+  text-decoration: none;
+  color: magenta;
+  font-family: monospace;
+}
