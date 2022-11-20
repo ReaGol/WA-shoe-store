@@ -33,7 +33,7 @@ function Shoe(props) {
       }
     };
     fetchShoeData();
-  }, []);
+  }, [params]);
 
   const handleUpdateShoe = async (sold, name, photo) => {
     try {
@@ -94,7 +94,7 @@ function Shoe(props) {
           placeholder='photo'
           onChange={({ target: { value } }) => setInputImg(value)}
         />
-        {isLoading && <h1 className='spin'></h1>}
+        {isLoading && <h1 className='spin'>Loading</h1>}
         
           <div className='shoes_container'>
             <div className='shoe' key={shoeData.id}>

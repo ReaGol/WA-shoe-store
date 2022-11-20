@@ -66,12 +66,27 @@ button:hover {
   box-shadow: 5px 1px 5px rgb(137, 157, 155);
 }
 
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 img {
   
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
    height: 100%;
+}
+
+p {
+  display: flex;
+  align-self: center;
+  font-size: 1.5rem;
+  color: beige;
+  text-shadow: 2px 2px 2px grey;
 }
 
 h1 {
@@ -80,6 +95,7 @@ h1 {
   color: blueviolet;
   text-align: center;
   text-shadow: 2px 2px 2px pink;
+  
 }
 
 a {
@@ -87,3 +103,4 @@ a {
   color: magenta;
   font-family: monospace;
 }
+
